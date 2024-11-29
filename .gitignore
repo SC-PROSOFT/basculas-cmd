@@ -1,0 +1,31 @@
+# Ignorar archivos de compilación generados
+bin/
+obj/
+
+# Ignorar archivos de dependencias y paquetes NuGet
+*.user
+*.suo
+*.nuget.props
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.log
+*.vs/
+*.bak
+
+# Ignorar archivos de configuración específicos del entorno
+*.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación y configuración de Visual Studio
+.vscode/
+*.sln
+*.csproj.user
+*.vcxproj
+*.vcxproj.filters
+
+# Ignorar el directorio de salida de compilación
+Release/
+Debug/

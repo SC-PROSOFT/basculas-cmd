@@ -1,0 +1,36 @@
+# Módulos de Node.js
+node_modules/
+
+# Archivos de logs
+logs
+*.log
+
+# Salida de pruebas
+coverage/
+
+# Directorio .vscode
+.vscode/
+
+# Archivos de entorno local
+.env
+
+# Archivos generados en el entorno de desarrollo
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac files
+._*
+
+# Dependencias específicas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias de paquetes
+package-lock.json
+yarn.lock
